@@ -665,7 +665,7 @@ CREATE TABLE `structural_variant` (
   `EVENT_INFO` varchar(255),
   `CLASS` varchar(25),
   `LENGTH` int(11),
-  `COMMENTS` varchar(255),
+  `COMMENTS` longtext,
   `EXTERNAL_ANNOTATION` varchar(80),
   `DRIVER_FILTER` VARCHAR(20),
   `DRIVER_FILTER_ANNOTATION` VARCHAR(80),
